@@ -12,9 +12,12 @@
   </head>
 
   <body>
-@include("partials.header")
+      @include("partials.header")
 
       <h1>Funonza</h1>
+
+      @include("partials.footer")
+
   </body>
 
 </html>
