@@ -1,1 +1,62 @@
 @import "~bootstrap/scss/bootstrap";
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:visited {
+        color: black;
+    }
+}
+
+footer {
+    background-color: black;
+    background-image: url(../images/footer-bg.jpg);
+color: white;
+
+#footerMain {
+height: 400px;
+overflow: hidden;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.linkTitle {
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+    
+a {
+color: grey;
+    &:visited {color: grey;
+    }
+
+    &:hover {
+color: white;    }
+}
+
+.credits {
+color: grey;
+a{
+    color:royalblue ;
+    &:visited {
+        color: royalblue;
+    }
+}
+}
+.imgContainer {
+    height: 400px;
+display: flex;
+overflow: hidden;
+align-items: center;
+.logoBg{
+    height: 130%;
+}
+}
+}

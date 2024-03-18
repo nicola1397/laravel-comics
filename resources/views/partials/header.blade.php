@@ -1,6 +1,6 @@
 <header>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <div class="container-md">
     <a class="navbar-brand" href="#">
         <img src="../images/dc-logo.png" alt="Logo">
     </a>
