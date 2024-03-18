@@ -54,6 +54,22 @@
 </div></div>
 <div class="col-auto imgContainer">
     <img src="../images/dc-logo-bg.png" alt="" class="logoBg">
-</div></div>
+</div></div></div>
+<div id="socialSection">
+<div class="container-md">
+    <div class="row" id="socialContainer">
+        <div class="col-2"><button class="signUp"><a href="">SIGN-UP NOW!</a></button></div>
+    <div class="socials col-auto">
+        <span class="follow">FOLLOW US</span>
+        <button><a href="http://"><img src="../images/footer-facebook.png" alt=""></a></button>
+        <button><a href="http://"><img src="../images/footer-twitter.png" alt=""></a></button>
+        <button><a href="http://"><img src="../images/footer-youtube.png" alt=""></a></button>
+        <button><a href="http://"><img src="../images/footer-pinterest.png" alt=""></a></button>
+        <button><a href="http://"><img src="../images/footer-periscope.png" alt=""></a></button>
 
+    </div>
+    
+    </div>
+</div>
+</div>
 </footer>
