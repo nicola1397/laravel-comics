@@ -58,7 +58,7 @@
 <div id="socialSection">
 <div class="container-md">
     <div class="row" id="socialContainer">
-        <div class="col-2"><button class="signUp"><a href="">SIGN-UP NOW!</a></button></div>
+        <div class="col-2"><button class="btn signUp"><a href="">SIGN-UP NOW!</a></button></div>
     <div class="socials col-auto">
         <span class="follow">FOLLOW US</span>
         <button><a href="http://"><img src="../images/footer-facebook.png" alt=""></a></button>
