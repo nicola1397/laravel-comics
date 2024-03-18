@@ -13,6 +13,10 @@ a {
     }
 }
 
+.btn {
+    border-radius: 0px !Important;
+}
+
 // HEADER
 .partners {
     background-color: royalblue;
@@ -124,4 +128,50 @@ opacity: 1;
         border: none;
     }
 }}}
+}
+
+// COMICS
+
+.jumboContainer {
+    height: 400px;
+    overflow: hidden;
+ 
+}
+
+#comicsWrapper {
+    background-color: #303030;
+    position: relative;
+    #comicsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .label {
+        position: absolute;
+        top: 0;
+        transform: translate(0, -50%);
+        background-color: royalblue;
+        color: white;  
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 10px;  }
+.comicCard{
+    text-transform: uppercase;
+    font-weight: 500;
+        .comicCover {
+            width: 100%;
+            aspect-ratio: 2/3;
+        }
+    p {
+        color: white;
+        margin: 10px 0;
+    }
+    }
+   
+  }
+  .loadMore {
+    padding: 10px 60px;
+    font-weight: 700;
 }

@@ -13,9 +13,7 @@
 
   <body>
       @include("partials.header")
-
-      <h1>Funonza</h1>
-
+      @yield("body")
       @include("partials.footer")
 
   </body>
