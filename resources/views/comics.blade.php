@@ -15,10 +15,10 @@
             <span">CURRENT SERIES</span>
         </div>
                 <div class="row g-4 p-4">
-                    @foreach ($comics as $comic)
+                    @foreach ($comics as $key => $comic)
                     <div class="col-2">
                         <div class="comicCard">
-                            <a href="">
+                            <a href="{{ route('details', ['key' => $key]) }}">
                                 <img src="{{$comic['thumb']}}" class="comicCover" alt="{{$comic['series']}}">
                                 <div>
                                   <p>{{$comic['series']}}</p>
@@ -35,7 +35,7 @@
         </div>    
 </div>
 
-<div id="utilities">
+<div id="blutilities">
   <div class="container-md">
     <div class="row justify-content-between">
       <div class="col-auto"><a href=""><img src="../images/buy-comics-digital-comics.png" alt="">

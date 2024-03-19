@@ -16,4 +16,5 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'comics'])->name('comics');
+Route::get('/details/{key}', [PageController::class, 'details'])->name('details');
 

@@ -2,6 +2,7 @@
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 a {
@@ -173,7 +174,7 @@ opacity: 1;
 
 // COMICS PAGE UTILITIES BLUE
 
-#utilities {
+#blutilities {
     background-color: royalblue;
     padding: 60px 30px;
 a {
@@ -185,3 +186,136 @@ a {
         margin-right:10px;
     };
 }
+
+// COMIC DETAILS PAGE
+
+#detailsWrapper {
+    .thumbSupport{
+        height: 60px;
+        background-color: royalblue;
+        position: relative;
+
+        .thumbContainer{
+            position: relative;
+            img {
+                position: absolute;
+                bottom: -30px;
+                height: 300px;
+                border: 2px solid white;
+            }}
+    }
+
+    .comicTitle {
+        text-transform: uppercase;
+        color: #003a5d ;
+        margin: 20px 0;
+
+    }
+
+    .availBar {
+        background-color: limegreen;
+        padding: 20px 30px;
+        color: white;
+        border-bottom: 2px solid green;
+        margin: 20px 0;
+
+        font-weight: bold;
+        display: flex;
+        .availLeft {
+             display: flex;
+             justify-content: space-between;
+                 .price{ 
+                    display: inline-block;
+                 }
+             }
+
+        .availRight {
+            display: flex;                
+            justify-content: center;
+            align-items: center;
+
+    
+            .checkAvail {
+                background-color: transparent;
+                border: none;
+                color: white;
+                font-weight: bold;
+            }
+    }
+  
+    }
+
+    .adContainer{
+    .ads {
+        display: block;
+        color: #303030;
+        font-weight: bold;
+        text-align: right;
+    }}
+
+
+    .comicSpecs {
+        background-color: #f6f6f6 ;
+        border-top: 1px solid lightgray ;
+
+    .colTitle {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #003a5d;
+        margin: 20px 0;
+    }
+    .listRow {
+        display: flex;
+        padding: 10px 0;
+        border-top: 1px solid lightgray ;
+
+        &:last-child {
+            border-bottom: 1px solid lightgray ;
+
+        }
+        .rowTitle {
+            color: #003a5d;
+            font-weight: 500;
+        }
+        .byPeople a{
+            font-weight: 500;
+
+        }
+        .specDetail {
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+    #utilities {
+        margin-top: 100px;
+        border-top: 1px solid lightgrey;
+        border-top: 1px solid lightgrey;
+
+        a{
+            color: lightgray;
+            font-weight: bold;
+
+            img {
+                height: 60px;
+                filter: invert(0%) sepia(0%) saturate(6319%) hue-rotate(66deg) brightness(125%) contrast(70%);
+
+            }
+        }
+
+        .utilCard {
+            display: flex;
+            align-items:start;
+            justify-content: space-between;
+        }
+
+        .bordered {
+            border-left: 1px solid lightgrey;
+            &:last-of-type{
+            border-right: 1px solid lightgrey;}
+
+        }
+    }
+    }
+}
+
